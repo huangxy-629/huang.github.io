@@ -881,16 +881,20 @@ input#img-24:checked ~ .nav-dots label#img-dot-24 {
   .foot_bgcolor_1 {
     top: 15vh;
     left: 50;
+    font-size: 9em;
   }
   .foot_bgcolor_2 {
     right: 90;
   }
   .foot_text h1 {
     text-align: center;
+    font-size: 5em;
   }
   .ft_2, .ft_1 {
     text-align: center;
-    font-size: 1.2m;
+  }
+  .ft_2 {
+    font-size: 1.4em;
   }
   .foot_bot {
     font-size: 1em;
