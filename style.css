@@ -83,8 +83,6 @@ body::-webkit-scrollbar {
 .header_back {
   background-image: url("Images/Mask.png");
   background-size: cover;
-  bacground-position: 0% 15%;
-  background-repeat: no-repeat;
   position: absolute;
   width: 100%;
   right: 0;
@@ -798,6 +796,107 @@ input#img-24:checked ~ .nav-dots label#img-dot-24 {
   .prev, .next {
     top: 1.5%;
   }
+   .text1, .text2 {
+    font-size: 10vh;
+  }
 }
 
+}
+@media only screen and (max-width: 425px) {
+  .text1, .text2 {
+    font-size: 6vh;
+  }
+  .aboutme-all span {
+    font-size: 3vh;
+  }
+  .aboutme-all div {
+    width: 10vh;
+  }
+  .introduction .isi-intro h1 {
+    font-size: 2em;
+    margin-bottom: 3vh;
+  }
+  .introduction .isi-intro p {
+    font-size: 0.7em;
+  }
+  .introduction .foto-shelly-huang img {
+    width: 27vh;
+    height: 40vh;
+  }
+  .dt {
+    display: block;
+  }
+  .title {
+    font-size: 3vh;
+  }
+  .subtitle {
+    font-size: 2vh;
+    margin-bottom: 3vh;
+  }
+  .tempat {
+    padding-left: 0;
+  }
+  .social .username {
+    font-size: 15pt;
+  }
+  .list_otsk {
+    padding-right: 3vh;
+  }
+  .list_otsk p {
+    font-size: 0.8em;
+  }
+  .software_name img {
+    width: 8vh;
+  }
+  .software_name p {
+    font-size: 1.3em;
+  }
+  .progress-bar-skill, .progress-in {
+    height: 3vh;
+  }
+  .lang_dt p {
+    font-size: 1.9em;
+  }
+  .slideshow-container {
+    margin: 0 5vh;
+  }
+  .mySlides span {
+    font-size: 0.8em;
+    letter-spacing: 10;
+    padding-top: 1vh;
+  }
+  .dt-sec03 span {
+    font-size: 1em;
+  }
+  .sosmedpic-sec03 img {
+    width: 4vh;
+  }
+  .dt-sec03 .sosmed-sec03 p {
+    font-size: 0.8em;
+  }
+  .dt-sec03 span, .dt-sec03 .sosmed-sec03 {
+    padding: 5vh;
+  }
+  .foot_bg {
+    background-position: center;
+  }
+  .foot_bgcolor_1 {
+    top: 15vh;
+    left: 50;
+  }
+  .foot_bgcolor_2 {
+    right: 90;
+  }
+  .foot_text h1 {
+    text-align: center;
+  }
+  .ft_2, .ft_1 {
+    text-align: center;
+    font-size: 1.2m;
+  }
+  .foot_bot {
+    font-size: 1em;
+    padding: 2vh;
+  }
+}
 /*# sourceMappingURL=style.css.map */
