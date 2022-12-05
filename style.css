@@ -801,7 +801,7 @@ input#img-24:checked ~ .nav-dots label#img-dot-24 {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media only screen and (max-width: 425px) {
   .text1, .text2 {
     font-size: 6vh;
   }
