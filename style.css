@@ -82,7 +82,8 @@ body::-webkit-scrollbar {
 
 .header_back {
   background-image: url("Images/Mask.png");
-  background-size: 200vh;
+  background-size: cover;
+  bacground-position: 0% 15%;
   background-repeat: no-repeat;
   position: absolute;
   width: 100%;
