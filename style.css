@@ -896,6 +896,9 @@ input#img-24:checked ~ .nav-dots label#img-dot-24 {
     font-size: 1em;
     padding: 2vh;
   }
+  .foot_bg, .foot_bgcolor, .foot_top {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
