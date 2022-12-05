@@ -743,4 +743,61 @@ input#img-24:checked ~ .nav-dots label#img-dot-24 {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .introduction .isi-intro h1 {
+    font-size: 3.5em;
+  }
+  .introduction .isi-intro p {
+    font-size: 1.2em;
+  }
+  .introduction .foto-shelly-huang img {
+    width: 40vh;
+    height: 70vh;
+  }
+  .list_contact {
+    display: block;
+  }
+  .list_contact .email {
+    padding-bottom: 3vh;
+  }
+  .social .social_img a img {
+    height: 7vh;
+  }
+  .social .username {
+    text-align: left;
+    font-size: 20pt;
+  }
+  .tahun, .tempat {
+    font-size: 1.4em;
+  }
+  .dt_education .tahun .pad-bot {
+    padding-bottom: 10.4vh;
+  }
+  .dt_education .pad-bot {
+    padding-bottom: 4vh;
+  }
+  .tempat {
+    padding-left: 4vh;
+  }
+  .dt_career .tahun {
+    padding-right: 5vh;
+  }
+  .dt_career ul li {
+    font-size: 1em;
+  }
+  .list_otsk {
+    padding-right: 5vh;
+  }
+  .list_otsk p {
+    font-size: 1em;
+  }
+  .mySlides span {
+    font-size: x-large;
+    letter-spacing: 20;
+  }
+  .prev, .next {
+    top: 1.5%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
