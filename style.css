@@ -800,7 +800,7 @@ input#img-24:checked ~ .nav-dots label#img-dot-24 {
     font-size: 10vh;
   }
 }
-@media only screen and (max-width: 425px) {
+@media (max-width: 425px) {
   .text1, .text2 {
     font-size: 6vh;
   }
