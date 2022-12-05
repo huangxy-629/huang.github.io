@@ -716,4 +716,31 @@ input#img-24:checked ~ .nav-dots label#img-dot-24 {
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .prev, .next {
+    top: 3.5%;
+  }
+  .foot_bot {
+    padding: 3vh;
+  }
+  .list_contact .email {
+    font-size: 3vh;
+  }
+  .title {
+    font-size: 5vh;
+  }
+  .tahun {
+    font-size: 1.9em;
+  }
+  .tahun .pad-bot {
+    padding-bottom: 14.4vh;
+  }
+  .tempat {
+    font-size: 1.9em;
+  }
+  .list_otsk p {
+    font-size: 1.2em;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
