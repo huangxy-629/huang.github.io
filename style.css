@@ -885,6 +885,7 @@ input#img-24:checked ~ .nav-dots label#img-dot-24 {
   }
   .foot_bgcolor_2 {
     right: 90;
+    font-size: 12em;
   }
   .foot_text h1 {
     text-align: center;
@@ -892,6 +893,9 @@ input#img-24:checked ~ .nav-dots label#img-dot-24 {
   }
   .ft_2, .ft_1 {
     text-align: center;
+  }
+  .ft_1 {
+    font-size: 1.2em;
   }
   .ft_2 {
     font-size: 1.4em;
